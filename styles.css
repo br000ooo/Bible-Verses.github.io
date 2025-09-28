@@ -1,0 +1,83 @@
+/* Center everything on the page */
+body {
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    min-height: 100vh;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically */
+    padding: 40px 10px;
+}
+
+.Container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #5a189a;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+p {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #22223b;
+    margin-bottom: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.Verse {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center verse content horizontally */
+    justify-content: center;
+}
+
+.reference {
+    font-size: 1rem;
+    color: #7b2ff2;
+    text-align: center; /* Center reference */
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+button {
+    background-color: #7b2ff2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button:hover {
+    background: #020963;
+}
